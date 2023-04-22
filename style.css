@@ -16,14 +16,23 @@ body{
     background-color: #eee;
 }
 
+header{
+    color: #777;
+
+}
+
 header > h1{
     font-family:"Abril Fatface";
     text-align: center;
+    color:black;
 }
 
 nav{
     border-top: 2px solid #eee;
     border-bottom: 2px solid #eee;
+    position: sticky;
+    top:0;
+    background-color: white;
 }
 
 li{
@@ -46,13 +55,16 @@ h5{
     color:red;
 }
 
+p{
+    color: #777;
+}
+
 section{
     display: inline-block;
-    padding: 5px;
-    
-}
-section > h4{
-    text-align: center;
+    border-top: 2px solid #eee;
+    display: inline-block;
+    width: 300px;
+    padding:10px;
 }
 
 
